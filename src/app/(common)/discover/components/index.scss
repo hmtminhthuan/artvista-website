@@ -1,0 +1,54 @@
+.moving-div {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: #ffffff 0px 0px 0px, #ffffffb3 0px 7px 13px -3px, #ffffffe4 0px -3px 0px inset !important;
+}
+
+/* .moving-div-1{
+    animation-name: moveUpDown1;
+    animation-delay: 0.5s;
+}
+.moving-div-2{
+    animation-name: moveUpDown2;
+}
+.moving-div-3{
+    animation-name: moveUpDown3;
+    animation-delay: 0.5s;
+}
+.moving-div-4{
+    animation-name: moveUpDown4;
+}
+
+@keyframes moveUpDown1 {
+    0% {
+        transform: translateY(1.5rem);
+    }
+    100% {
+        transform: translateY(2rem);
+    }
+}
+@keyframes moveUpDown2 {
+    0% {
+        transform: translateY(0);
+        }
+    100% {
+        transform: translateY(0.5rem);
+    }
+}
+@keyframes moveUpDown3 {
+    0% {
+        transform: translateY(2.5rem);
+        }
+    100% {
+        transform: translateY(3rem);
+    }
+}
+@keyframes moveUpDown4 {
+    0% {
+        transform: translateY(1rem);
+        }
+    100% {
+        transform: translateY(1.5rem);
+    }
+} */

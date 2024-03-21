@@ -1,0 +1,210 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+example/src/api/auth/auth.ts
+example/src/api/management/artwork.ts
+example/src/api/management/category.ts
+example/src/api/management/interaction.ts
+example/src/api/management/post.ts
+example/src/api/market/artwork.ts
+example/src/api/market/packagePurchase.ts
+example/src/api/market/wishlist.ts
+example/src/app/favicon.ico
+example/src/app/globals.css
+example/src/app/layout.tsx
+example/src/app/page.tsx
+example/src/app/pageProvider.tsx
+example/src/app/(auth)/ConfirmEmail/[email]/[code]/ConfirmEmailComponent.tsx
+example/src/app/(auth)/ConfirmEmail/[email]/[code]/ConfirmEmailProvider.tsx
+example/src/app/(auth)/ConfirmEmail/[email]/[code]/page.tsx
+example/src/app/(auth)/ResetPassword/[email]/[code]/page.tsx
+example/src/app/(auth)/ResetPassword/[email]/[code]/ResetPasswordComponent.tsx
+example/src/app/(auth)/ResetPassword/[email]/[code]/ResetPasswordProvider.tsx
+example/src/app/(auth)/signin/page.tsx
+example/src/app/(auth)/signin/components/frame-component-signin.tsx
+example/src/app/(auth)/signin/components/SignIn.tsx
+example/src/app/(auth)/signin/components/SignInAuth.tsx
+example/src/app/(auth)/signup/page.tsx
+example/src/app/(auth)/signup/components/frame1.tsx
+example/src/app/(auth)/signup/components/welcomeframe.tsx
+example/src/app/(auth)/signup/info/page.tsx
+example/src/app/(auth)/signup/info/components/frame-component1.tsx
+example/src/app/(auth)/signup/info/components/SignUpAuth.tsx
+example/src/app/(auth)/signup/info/components/SignUpInfoScreen.tsx
+example/src/app/(auth)/signup/info/components/welcomeframe2.tsx
+example/src/app/(common)/discover/page.tsx
+example/src/app/(common)/discover/[artworkId]/page.tsx
+example/src/app/(common)/discover/[artworkId]/components/ArtworkDetail.tsx
+example/src/app/(common)/discover/[artworkId]/components/ArtworkDetailProvider.tsx
+example/src/app/(common)/discover/components/ArtworkCard.tsx
+example/src/app/(common)/discover/components/Discover.tsx
+example/src/app/(common)/discover/components/index.scss
+example/src/app/(common)/discover/components/pageProvider.tsx
+example/src/app/(common)/package/page.tsx
+example/src/app/(common)/package/components/index.scss
+example/src/app/(common)/package/components/PackageCard.tsx
+example/src/app/(common)/package/components/PackagePage.tsx
+example/src/app/(common)/package/components/pageProvider.tsx
+example/src/app/(common)/profile/[userId]/page.tsx
+example/src/app/(common)/profile/[userId]/profileComponent.tsx
+example/src/app/(common)/profile/[userId]/profileProvider.tsx
+example/src/app/(common)/profile/[userId]/ResetPasswordProfile.tsx
+example/src/app/(role)/admin/artwork/artwork.tsx
+example/src/app/(role)/admin/artwork/artworkProvider.tsx
+example/src/app/(role)/admin/artwork/page.tsx
+example/src/app/(role)/admin/category/category.tsx
+example/src/app/(role)/admin/category/categoryProvider.tsx
+example/src/app/(role)/admin/category/page.tsx
+example/src/app/(role)/admin/configuration/configuration.tsx
+example/src/app/(role)/admin/configuration/configurationProvider.tsx
+example/src/app/(role)/admin/configuration/page.tsx
+example/src/app/(role)/admin/dashboard/dashboard.tsx
+example/src/app/(role)/admin/dashboard/dashboardProvider.tsx
+example/src/app/(role)/admin/dashboard/page.tsx
+example/src/app/(role)/admin/interaction/interaction.tsx
+example/src/app/(role)/admin/interaction/interactionProvider.tsx
+example/src/app/(role)/admin/interaction/page.tsx
+example/src/app/(role)/admin/package/package.tsx
+example/src/app/(role)/admin/package/packageProvider.tsx
+example/src/app/(role)/admin/package/page.tsx
+example/src/app/(role)/admin/post/page.tsx
+example/src/app/(role)/admin/post/post.tsx
+example/src/app/(role)/admin/post/postProvider.tsx
+example/src/app/(role)/admin copy/artwork/artwork.tsx
+example/src/app/(role)/admin copy/artwork/artworkProvider.tsx
+example/src/app/(role)/admin copy/artwork/page.tsx
+example/src/app/(role)/admin copy/category/category.tsx
+example/src/app/(role)/admin copy/category/categoryProvider.tsx
+example/src/app/(role)/admin copy/category/page.tsx
+example/src/app/(role)/admin copy/configuration/configuration.tsx
+example/src/app/(role)/admin copy/configuration/configurationProvider.tsx
+example/src/app/(role)/admin copy/configuration/page.tsx
+example/src/app/(role)/admin copy/dashboard/dashboard.tsx
+example/src/app/(role)/admin copy/dashboard/dashboardProvider.tsx
+example/src/app/(role)/admin copy/dashboard/page.tsx
+example/src/app/(role)/admin copy/interaction/interaction.tsx
+example/src/app/(role)/admin copy/interaction/interactionProvider.tsx
+example/src/app/(role)/admin copy/interaction/page.tsx
+example/src/app/(role)/admin copy/package/package.tsx
+example/src/app/(role)/admin copy/package/packageProvider.tsx
+example/src/app/(role)/admin copy/package/page.tsx
+example/src/app/(role)/admin copy/post/page.tsx
+example/src/app/(role)/admin copy/post/post.tsx
+example/src/app/(role)/admin copy/post/postProvider.tsx
+example/src/app/(role)/creator/[creatorId]/page.tsx
+example/src/app/(role)/creator/[creatorId]/components/creatorPage.tsx
+example/src/app/(role)/creator/[creatorId]/components/CreatorVistPageProvider.tsx
+example/src/app/(role)/creator/[creatorId]/create/page.tsx
+example/src/app/(role)/creator/[creatorId]/create/components/CreatorCreatePage.tsx
+example/src/app/(role)/creator/[creatorId]/create/components/CreatorCreatePageProvider.tsx
+example/src/app/(role)/creator/[creatorId]/edit/[artworkId]/page.tsx
+example/src/app/(role)/creator/[creatorId]/edit/[artworkId]/components/CreatorEditPageProvider.tsx
+example/src/app/(role)/customer/[customerId]/favorite/page.tsx
+example/src/app/(role)/customer/[customerId]/favorite/wishlistPageProvider.tsx
+example/src/app/(role)/moderator/page.tsx
+example/src/components/Guard.tsx
+example/src/components/Layout.tsx
+example/src/components/sidebar.tsx
+example/src/components/AOSWrapper/AOSWrapper.tsx
+example/src/components/Chatting/Chatting.scss
+example/src/components/Chatting/Chatting.tsx
+example/src/components/Frame/TitlePageFrame.tsx
+example/src/components/Loading/Loading.scss
+example/src/components/Loading/Loading.tsx
+example/src/components/Shop/Carousel/index.tsx
+example/src/components/Shop/CarouselContent/index.scss
+example/src/components/Shop/CarouselContent/index.tsx
+example/src/components/Shop/FooterShop/index.scss
+example/src/components/Shop/FooterShop/index.tsx
+example/src/components/Shop/HeaderShop/HeaderShop.tsx
+example/src/components/Shop/HeaderShop/index.scss
+example/src/components/Shop/HeaderShop/index.tsx
+example/src/components/Shop/HomeCategories/CategoryCard.tsx
+example/src/components/Shop/HomeCategories/index.tsx
+example/src/components/Shop/Package/index.scss
+example/src/components/Shop/Package/index.tsx
+example/src/components/Shop/Package/PackageCard.tsx
+example/src/components/Shop/ShopLayout/index.tsx
+example/src/components/Shop/ShopLayout/ShopLayoutProvider.tsx
+example/src/components/Shop/TopCreator/CreatorCard.tsx
+example/src/components/Shop/TopCreator/index.tsx
+example/src/components/Shop/TrendingProduct/index.tsx
+example/src/components/Shop/TrendingProduct/TrendingProductCard.tsx
+example/src/config/apiConfig.ts
+example/src/config/axios.ts
+example/src/config/firebaseConfig.ts
+example/src/contexts/AppContext.tsx
+example/src/contexts/AuthGoogleContext.tsx
+example/src/contexts/JWTContext.tsx
+example/src/enums/accountRole.ts
+example/src/enums/artwork.ts
+example/src/guards/AuthGuard.tsx
+example/src/guards/GuestGuard.tsx
+example/src/guards/IdBasedGuard.tsx
+example/src/guards/RoleBasedGuard.tsx
+example/src/hooks/useAppContext.tsx
+example/src/hooks/useAuth.tsx
+example/src/models/ArtWorkDTO.ts
+example/src/models/CategoryDTO.ts
+example/src/models/ConfigurationDTO.ts
+example/src/models/InteractionDTO.ts
+example/src/models/PackageDTO.ts
+example/src/models/PackageOfCreatorDTO.ts
+example/src/models/PostDTO.ts
+example/src/models/ReportDTO.ts
+example/src/models/ResponseDTO.ts
+example/src/routes/paths.ts
+example/src/services/ArtWorkService.ts
+example/src/services/AuthService.ts
+example/src/services/CategoryService.ts
+example/src/services/ConfigurationService.ts
+example/src/services/InteractionService.ts
+example/src/services/PackageService.ts
+example/src/services/PostService.ts
+example/src/services/ReportService.ts
+example/src/types/authentication.ts
+example/src/types/firebase/FirebaseMessage.ts
+example/src/types/management/CategoryManagementDTO.ts
+example/src/types/management/InteractionManagementDTO.ts
+example/src/types/management/PostManagementDTO.ts
+example/src/types/market/ArtworkDTO.ts
+example/src/types/market/PackageMarketDTO.ts
+example/src/utils/formatDate.ts
+example/src/utils/formatPrice.ts
+example/src/utils/jwt.ts
+example/src/utils/sweetAlert.ts
+example/src/utils/useFirebaseStorage.ts
+example/src/utils/utils.js
